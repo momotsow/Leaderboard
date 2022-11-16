@@ -9,7 +9,6 @@ body {
   font-family: 'Poppins', sans-serif;
   height: 100vh;
   background-color: #dbf5f0;
-  
 }
 
 #title {
@@ -87,7 +86,6 @@ section {
 
 .result:nth-child(even) {
   background: #37beb0;
-  
 }
 
 .result:nth-child(odd) {
