@@ -1,40 +1,37 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> Description the project.
+## Description
+In this activity you will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. You should develop a first working version of the app following a wireframe, but without styling - just focus on functionality. In following activities, you will consume the Leaderboard API using JavaScript async and await and add some styling.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML
+- CSS
+- Javascript
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
+- Web browser
+- Code editor
+  
 ### Setup
+Clone this repository
+$ git clone Clone [this repository](https://github.com/momotsow/Leaderboard.git)
+$ cd Leaderboard
 
 ### Install
-
-### Usage
+Run project
+$ npm install
 
 ### Run tests
-
-### Deployment
+$ npm run start # this will make webpack watching for your changes in code
+$ open dist/index.html
 
 
 
