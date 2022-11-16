@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#title {
+  margin: 2em 0 4em 2.5em;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 10em;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-header {
+  text-align: end;
+  margin-bottom: 1em;
+}
+
+#score-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+aside {
+  min-width: 40%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+}
