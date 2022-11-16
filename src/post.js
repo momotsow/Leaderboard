@@ -16,9 +16,7 @@ const postScore = async (e) => {
   const yourScore = document.querySelector('.your-score');
   yourName.value = '';
   yourScore.value = '';
-  alert(data)
   return data;
-  
 };
 
 export default postScore;
