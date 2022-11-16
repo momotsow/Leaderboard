@@ -1,4 +1,5 @@
-export default async function newGame() {
+const newGame = async (e) => {
+  e.preventDefault();
   let gameId = [];
   const res = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
     method: 'POST',
@@ -10,4 +11,6 @@ export default async function newGame() {
   const data = await res.json();
   gameId = (data.result).split(' ');
   return gameId[3];
-}
+};
+
+export default newGame;
