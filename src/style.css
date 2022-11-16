@@ -9,7 +9,7 @@ body {
   font-family: 'Poppins', sans-serif;
   height: 100vh;
   background-color: #dbf5f0;
-  ;
+  
 }
 
 #title {
@@ -33,9 +33,10 @@ main {
 }
 
 .scores h2 {
-    text-align: end;
-    color: #003747;
+  text-align: end;
+  color: #003747;
 }
+
 .add-header {
   text-align: end;
   margin-bottom: 1em;
@@ -86,12 +87,11 @@ section {
 
 .result:nth-child(even) {
   background: #37beb0;
-  ;
+  
 }
 
 .result:nth-child(odd) {
   background: #a4e5e0;
-
 }
 
 .results {
