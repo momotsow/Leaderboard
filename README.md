@@ -27,8 +27,11 @@ $ cd Leaderboard
 
 ### Install
 Run project
+
 $ npm install
+
 $ npm run start # this will make webpack watching for your changes in code
+
 $ open dist/index.html
 
 
