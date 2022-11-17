@@ -1,27 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:ital,wght@0,200;0,400;0,700;1,400&display=swap');
+
 * {
   padding: 0;
   margin: 0;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background-color: #dbf5f0;
+}
+
 #title {
   margin: 2em 0 4em 2.5em;
+  font-size: 55px;
+  color: #003747;
+  text-align: center;
 }
 
 main {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 10em;
+  margin: 0 15em;
 }
 
 .scores {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.scores h2 {
+  text-align: end;
+  color: #003747;
 }
 
 .add-header {
   text-align: end;
   margin-bottom: 1em;
+  color: #003747;
+}
+
+.score-header {
+  color: #003747;
 }
 
 #score-data {
@@ -32,6 +54,20 @@ main {
 
 input {
   margin-bottom: 10px;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #002859;
+  padding: 8px 16px;
+}
+
+button {
+  background: #0c6170;
+  border: 2px solid #0c6170;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
 }
 
 aside {
@@ -41,5 +77,23 @@ aside {
 section {
   display: flex;
   flex-direction: column;
-  min-width: 40%;
+  min-width: 55%;
+}
+
+.result {
+  padding: 8px 16px;
+}
+
+.result:nth-child(even) {
+  background: #37beb0;
+}
+
+.result:nth-child(odd) {
+  background: #a4e5e0;
+}
+
+.results {
+  border: 2px solid #002859 !important;
+  color: #003747;
+  overflow-y: scroll;
 }
